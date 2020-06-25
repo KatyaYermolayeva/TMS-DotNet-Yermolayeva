@@ -2,6 +2,7 @@
 
 namespace Homework_3
 {
+    [Serializable]
     public class Task
     {
         public DateTime CreationTime { get; }
