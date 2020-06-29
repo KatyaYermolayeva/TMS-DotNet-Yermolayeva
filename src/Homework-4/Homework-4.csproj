@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Intefaces\" />
     <Folder Include="Managers\" />
   </ItemGroup>
 
