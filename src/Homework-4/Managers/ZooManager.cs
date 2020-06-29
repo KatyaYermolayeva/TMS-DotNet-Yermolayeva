@@ -21,6 +21,11 @@ namespace Homework_4.Managers
             _animalManager.GetInfo(animal);
         }
 
+        public Animal GetAnimalByID(Guid id)
+        {
+            return animals.Find(x => x.GetId() == id);
+        }
+
         public void GetAllAnimals()
         {
             if (animals.Count > 0)
