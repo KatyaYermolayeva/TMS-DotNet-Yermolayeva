@@ -32,7 +32,7 @@ namespace Homework_4.Models
             _passport = Guid.NewGuid().ToString();
         }
 
-        public Animal(string passport, string name, KindType kind)
+        public Animal(string name, KindType kind, string passport)
         {
             Name = name;
             Kind = kind;

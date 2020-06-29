@@ -6,8 +6,4 @@
     <RootNamespace>Homework_4</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Managers\" />
-  </ItemGroup>
-
 </Project>
