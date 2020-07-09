@@ -11,7 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework-3", "src\Homework-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework-4", "src\Homework-4\Homework-4.csproj", "{46522365-EFD1-43F9-B929-D97852A0BCD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-5", "src\Homework-5\Homework-5.csproj", "{6853D377-4F94-49F4-AD58-770FAE1D3437}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework-5", "Homework-5", "{C2959DC6-952C-4958-B480-9A75F306DF2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessConsoleApp", "src\FitnessConsoleApp\FitnessConsoleApp.csproj", "{E9559F3F-EDF1-415D-8A7D-03E064C7AFAF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4A884FE-5B40-4633-8D52-0F9653C0B06C} = {C4A884FE-5B40-4633-8D52-0F9653C0B06C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessCore", "src\FitnessCore\FitnessCore.csproj", "{C4A884FE-5B40-4633-8D52-0F9653C0B06C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,13 +42,13 @@ Global
 		{46522365-EFD1-43F9-B929-D97852A0BCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46522365-EFD1-43F9-B929-D97852A0BCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46522365-EFD1-43F9-B929-D97852A0BCD6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6853D377-4F94-49F4-AD58-770FAE1D3437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6853D377-4F94-49F4-AD58-770FAE1D3437}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6853D377-4F94-49F4-AD58-770FAE1D3437}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6853D377-4F94-49F4-AD58-770FAE1D3437}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9559F3F-EDF1-415D-8A7D-03E064C7AFAF} = {C2959DC6-952C-4958-B480-9A75F306DF2B}
+		{C4A884FE-5B40-4633-8D52-0F9653C0B06C} = {C2959DC6-952C-4958-B480-9A75F306DF2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F359DAA-7AAE-43E0-9B72-55DF9DCCF8BE}
