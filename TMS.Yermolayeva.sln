@@ -22,6 +22,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessCore", "src\FitnessC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework-5", "src\Homework-5\Homework-5.csproj", "{1B40F8E6-44E6-4400-A22E-E2312DCF2343}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-7", "src\Homework-7\Homework-7.csproj", "{CBF8FF72-4B7E-47E2-AF51-9BBEE02AE05E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{1B40F8E6-44E6-4400-A22E-E2312DCF2343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B40F8E6-44E6-4400-A22E-E2312DCF2343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B40F8E6-44E6-4400-A22E-E2312DCF2343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF8FF72-4B7E-47E2-AF51-9BBEE02AE05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF8FF72-4B7E-47E2-AF51-9BBEE02AE05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF8FF72-4B7E-47E2-AF51-9BBEE02AE05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF8FF72-4B7E-47E2-AF51-9BBEE02AE05E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
